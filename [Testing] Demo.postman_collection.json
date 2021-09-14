@@ -81,14 +81,19 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/api/users/2",
+					"raw": "{{base_url}}/api/users?delay=3",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
 						"api",
-						"users",
-						"2"
+						"users"
+					],
+					"query": [
+						{
+							"key": "delay",
+							"value": "3"
+						}
 					]
 				}
 			},
